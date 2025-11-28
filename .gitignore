@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Output files
+frontpage_gen/output/
+*.jpg
+*.png
+*.jpeg
+!frontpage_gen/assets/**/*.png
+!frontpage_gen/assets/**/*.jpg
+!frontpage_gen/backgrounds/**/*.png
+!frontpage_gen/logos/**/*.png
+!frontpage_gen/players/**/*.png
+!frontpage_gen/qimen/**/*.jpg
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# Google Cloud
+*.json
+!package.json
+gcs-key.json
+service-account*.json
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
